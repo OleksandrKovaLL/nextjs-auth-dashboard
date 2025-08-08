@@ -15,7 +15,6 @@ interface HeaderProps {
 export default function Header({ currentLocale }: HeaderProps) {
     const t = useTranslations(); // ✅ Правильно для Client Component
     const router = useRouter();
-    const pathname = usePathname();
     const [isLoggingOut, setIsLoggingOut] = useState(false);
     const [user, setUser] = useState<any>(null);
     const [isLoading, setIsLoading] = useState(true);
