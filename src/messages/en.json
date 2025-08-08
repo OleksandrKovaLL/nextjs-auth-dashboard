@@ -1,0 +1,155 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "home": "Home",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "soon": "soon",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "dark": "Dark",
+    "light": "Light",
+    "verified": "Verified",
+    "tryAgain": "Try again",
+    "networkError": "Network error. Please try again later.",
+    "backToHome": "Back to home"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "settings": "Settings"
+  },
+  "auth": {
+    "loginTitle": "Sign In",
+    "registerTitle": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "confirmPassword": "Confirm Password",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "loginError": "Invalid email or password",
+    "registerError": "Registration error",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "nameRequired": "Name is required",
+    "passwordMin": "Password must be at least 6 characters",
+    "registerSuccess": "Registration successful! Redirecting...",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "At least 6 characters",
+    "registering": "Registering...",
+    "loginSuccess": "Login successful! Redirecting...",
+    "authCheckError": "Authentication error. Please try again.",
+    "passwordEnter": "Enter password",
+    "loggingIn": "Logging in..."
+  },
+  "login": {
+    "demoHint": "💡 For testing: Use credentials from registration"
+  },
+  "home": {
+    "welcome": "Welcome!",
+    "description": "This is a Next.js test task with authentication and internationalization.",
+    "getStarted": "Get started by logging in or registering",
+    "features": "Features",
+    "authenticationFeature": "JWT Authentication",
+    "multiLanguageFeature": "Multi-language Support",
+    "dashboardFeature": "Personal Dashboard",
+    "welcomeBack": "Welcome back",
+    "accountReady": "Your account is active and ready to use",
+    "createOrLogin": "Create an account or log in to an existing one",
+    "authenticationDetails": "Secure authentication with JWT tokens in HTTP-only cookies",
+    "multiLanguageDetails": "Full support for Ukrainian and English via next-intl",
+    "dashboardDetails": "Personal dashboard with products and profile settings"
+  },
+  "dashboard": {
+    "welcome": "Welcome to the dashboard",
+    "welcomeMessage": "Start managing your account",
+    "greeting": "Welcome to TestApp Dashboard!",
+    "intro": "Here you can manage your products, view your profile and configure your account.",
+    "manageAccount": "Manage your account",
+    "quickActions": {
+      "viewProducts": "View products",
+      "manageCatalog": "Manage your product catalog",
+      "myProfile": "My profile",
+      "accountSettings": "Account settings"
+    },
+    "stats": {
+      "totalProducts": "Total products",
+      "inYourCatalog": "In your catalog",
+      "inStock": "In stock",
+      "availableForSale": "Available for sale",
+      "categories": "Categories",
+      "variousCategories": "Various categories",
+      "updated": "Updated",
+      "lastUpdate": "Last update"
+    }
+  }
+  ,
+  "sidebar": {
+    "navigation": "Navigation",
+    "language": "Language",
+    "user": "User",
+    "active": "Active",
+    "menu": {
+      "dashboardDesc": "Main dashboard",
+      "productsDesc": "Manage products",
+      "profileDesc": "Profile settings"
+    }
+  },
+  "profile": {
+    "subtitle": "Manage account settings",
+    "loadError": "Failed to load profile",
+    "registeredAt": "Registered",
+    "lastUpdate": "Last update",
+    "accountActions": "Account actions",
+    "editProfile": "Edit profile",
+    "changePassword": "Change password",
+    "settings": "Settings",
+    "activityStats": "Activity statistics",
+    "logins": "Logins",
+    "productsViewed": "Products viewed",
+    "favoriteCategory": "Favorite category",
+    "lastLogin": "Last login",
+    "language": "Interface language",
+    "currentLanguage": "Current display language",
+    "notifications": "Notifications",
+    "emailNotifications": "Email notifications",
+    "darkTheme": "Dark theme",
+    "appearance": "Appearance",
+    "accountSecurity": "Account security",
+    "userId": "User ID",
+    "accountType": "Account type",
+    "emailVerified": "Email verified"
+  }
+  ,
+  "products": {
+    "subtitle": "Manage your product catalog",
+    "loadError": "Failed to load products",
+    "emptyTitle": "No products yet",
+    "emptyDescription": "Products will appear here after adding",
+    "refresh": "Refresh list",
+    "outOfStock": "Out of stock",
+    "inStockBadge": "✓ In stock",
+    "notAvailableBadge": "✗ Not available"
+  },
+  "categories": {
+    "electronics": "Electronics",
+    "clothing": "Clothing",
+    "books": "Books",
+    "home": "Home & Garden",
+    "sports": "Sports",
+    "other": "Other"
+  }
+}
