@@ -62,13 +62,6 @@ export default function Header({ currentLocale }: HeaderProps) {
         }
     };
 
-    const switchLocale = (newLocale: string) => {
-        const segments = pathname.split('/');
-        segments[1] = newLocale;
-        const newPath = segments.join('/');
-        router.push(newPath);
-    };
-
     const isAuthenticated = !!user && !isLoading;
 
     return (

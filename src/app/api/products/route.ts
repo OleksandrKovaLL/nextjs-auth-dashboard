@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '../../../lib/db';
+import dbConnect from '@/lib/db';
 import Product from '@/models/Product';
-import { getCurrentUserFromRequest } from '../../../lib/jwt';
+import { getCurrentUserFromRequest } from '@/lib/jwt';
 import { NextRequest } from 'next/server';
 
 export async function GET(request: NextRequest) {
