@@ -27,7 +27,6 @@ export default async function middleware(request: NextRequest) {
     // Extract locale from pathname
     const pathnameSegments = pathname.split('/');
     const locale = pathnameSegments[1];
-    console.log('🔒 Middleware: Extracted locale:', locale);
 
     // Only proceed if we have a valid locale
     if (!locales.includes(locale as any)) {
@@ -46,8 +45,6 @@ export default async function middleware(request: NextRequest) {
     const isProtectedRoute = protectedRoutes.some(route =>
         pathname.includes(`/${locale}${route}`)
     );
-
-    console.log('🔒 Middleware: Is protected route?', isProtectedRoute);
 
     // Check authentication for protected routes
     if (isProtectedRoute) {
@@ -86,7 +83,6 @@ export default async function middleware(request: NextRequest) {
         if (token) {
             const decoded = await verifyToken(token);
             if (decoded) {
-            console.log('🔒 Middleware: Already authenticated - redirecting to dashboard');
             const dashboardUrl = new URL(`/${locale}/dashboard`, request.url);
             const res = NextResponse.redirect(dashboardUrl);
             res.cookies.set('NEXT_LOCALE', locale);

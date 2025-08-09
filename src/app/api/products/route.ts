@@ -22,8 +22,6 @@ export async function GET(request: NextRequest) {
         // Test products
         const productCount = await Product.countDocuments();
         if (productCount === 0) {
-            console.log('📦 Creating sample products in MongoDB...');
-
             await Product.insertMany([
                 {
                     name: 'MacBook Pro M3',
@@ -54,7 +52,7 @@ export async function GET(request: NextRequest) {
                     inStock: true,
                 },
                 {
-                    name: 'Breville Coffee Maker',
+                    name: 'Revile Coffee Maker',
                     description: 'Automatic drip coffee maker with programmable timer',
                     price: 199.99,
                     category: 'home',

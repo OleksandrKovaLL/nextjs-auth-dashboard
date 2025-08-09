@@ -72,13 +72,6 @@ export default async function HomePage({ params }: Props) {
     <main className="container mx-auto px-4 py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                {t('home.welcome')} 🚀
-            </h2>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                {t('home.description')}
-            </p>
-
             {/* CTA Section */}
             {isAuthenticated ? (
                 <Card className="max-w-md mx-auto border-green-200 bg-green-50">

@@ -60,9 +60,9 @@ export default function LanguageSwitcher({
   })();
 
   const btnCls = (isActive: boolean) => {
-    const base = 'px-3 py-1 text-sm font-medium rounded-md transition-colors';
-    const active = 'bg-white text-blue-600 shadow-sm';
-    const inactive = 'text-gray-600 hover:text-gray-900';
+    const base = 'px-3 py-1 text-sm font-medium rounded-md transition-colors cursor-pointer';
+    const active = 'bg-white text-blue-600 shadow-sm cursor-pointer';
+    const inactive = 'text-gray-600 hover:text-gray-900 cursor-pointer';
     return `${base} ${isActive ? active : inactive}`;
   };
 
