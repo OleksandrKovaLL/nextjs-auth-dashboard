@@ -69,7 +69,7 @@ export default async function HomePage({ params }: Props) {
 </header>
 
     {/* Main Content */}
-    <main className="container mx-auto px-4 py-12">
+    <main className="container mx-auto px-4 py-50">
         {/* Hero Section */}
         <div className="text-center mb-16">
             {/* CTA Section */}
