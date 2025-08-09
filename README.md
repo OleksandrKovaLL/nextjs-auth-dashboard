@@ -2,6 +2,8 @@
 
 Modern full-stack web application built with Next.js 15, featuring JWT authentication, internationalization, and a comprehensive dashboard interface.
 
+🔗 **[View Live Demo on CodeSandbox] https://codesandbox.io/p/github/OleksandrKovaLL/nextjs-auth-dashboard/master
+
 ## ✨ Features
 
 - 🔐 **JWT Authentication** - Secure user authentication with HTTP-only cookies
